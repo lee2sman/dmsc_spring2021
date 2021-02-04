@@ -1,0 +1,486 @@
+@import url("sakura.css");
+
+/*
+
+E2H DEFAULT CSS
+
+[TOC]
+
+
+General: E2H CSS HEADER
+
+____________________________________________
+
+Version (reference at CSS-default):
+    2017-10-12
+
+CSS-SPEC:
+    [http://totalism.org/e2h.php?_=CSS-default|READ], [http://pad.totalism.org/p/CSS-default|EDIT], ([::CSS-default])
+
+Examples:
+    * http://pad.totalism.org/p/dev-graph-test-css (minimal declaration, blue+yellow, no background)
+    * http://pad.totalism.org/p/hairyfotr-aiTests-css ("krnica" black + gold)
+    * http://pad.totalism.org/p/list-20170508-css ("postuni" black normalization try)
+    * http://pad.totalism.org/p/tss-2017-lj-css (good for notes!)
+    * [...]
+
+_______________________________________________________________
+
+
+MINI CUSTOMIZATION
+
+mini styles:
+    * [::css-crosshide-css]
+    * [...]
+
+examples:
+    * [::theme-ESP-css] TO CHANGE GRADIENT
+    * [...]
+
+
+
+CSS KNOWHOW
+
+:
+    * selectors: https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+    * [...]
+
+
+
+/*
+/////////////
+///////////
+/////////
+***************** THE CSS
+/////
+///
+//
+//
+*/
+
+
+body {
+    font: normal 12pt/14pt 'Ubuntu Mono', sans-serif;
+    background: White;
+    color: #111;
+}
+
+
+h1 {
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: inline;
+    color: White;
+    background: #9c9;
+    border-bottom: 3px solid black;
+    text-decoration: none !important;
+/*
+    text-shadow: 2px 2px 1px #9c9;
+*/
+}
+
+
+
+
+
+
+/*
+*
+****************************************************
+* ETHERPAD STUFF
+*
+*/
+
+.main_container {
+    margin: 50px 10px 50px 10px;
+    text-align: center;   
+}
+
+
+.etherpad_container {
+    display: inline-block;
+    word-wrap: break-word;
+    text-align: left !important; 
+
+    font-size: 120%;
+    line-height: 140%;
+
+/*
+    margin: 10px 80px 10px 80px !important;
+    margin: auto !important;
+*/
+
+    width: 75% !important;
+    max-width: 1100px !important;
+    padding: 25px;
+
+    background: none;
+}
+
+
+.etherpad_toc > li {
+    font-size: 70%;
+    line-height: 70%;
+}
+
+
+u {
+        font-size: 140%;
+        color: black;
+        background: #9c9;
+}
+
+
+strong {
+        display: inline;
+        font-style: normal;
+
+        color: BLACK;
+        background: #9c9;
+
+        color: WHITE;
+        background: silver;
+
+        text-shadow: 1px 1px 0px black;
+        text-shadow: 1px 1px 0px #DDDDDD;
+        text-shadow: 2px 0px 1px WHITE;
+        text-shadow: none;
+
+        font-weight: bold;
+        padding: 3px;
+        margin: 3px;
+}
+
+
+em {
+    display: inline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/*
+************* COOL TEXT COLOR TRANSITIONS
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: all;
+transition-timing-function: ease;
+
+transition:all 0.5s ease;/*i just moved this from anchor*/
+}
+em:hover { 
+    color: blue !important;
+}
+*/
+
+
+strong em u {
+/*
+    background: white !important;
+    color: black !important;
+*/
+
+    opacity: 0.85;
+    letter-spacing: 7px;
+    font-size: 190%;
+    padding: 7px;
+    line-height: 140%;
+}
+
+
+
+
+
+/*********** STRIKETHRU ***********/
+
+s {
+    line-height: 0px !important;
+    font-size: 0 !important;
+/*
+    display: inline !important;
+    position: static !important;
+    box-sizing: border-box;
+    line-height: -10px !important;
+    font-size: 0px !important;
+    color: none !important;
+    background: none !important;
+    text-indent: -9999px;
+*/
+}
+
+
+
+
+/************* (link) ***********/
+
+a:link {
+        color: #00AACC;
+}
+
+a:visited {
+        color: #009c9C;
+        color: #00AACC;
+        font-style: italic;
+}
+
+a:hover {
+        font-weight: bold;
+}
+
+
+
+
+/************** TOC TABLE STUFF *********/
+
+.ett_num {
+    text-align: center;
+    text-align: left;
+    text-align: right;
+/*
+    padding: 0px !important;
+    padding-right: 15px !important;
+*/
+    padding: 3px;
+    padding-right: 15px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+
+/*
+    padding: 0px 15px 0px 0px;
+*/
+}
+
+.ett {
+/*
+    font-size: 100% !important;
+*/
+    font-size: 100%;
+    margin: 10px !important;
+}
+
+.extra {
+    border-bottom: 2px dashed gray;
+    display: inline;
+    cursor: help;
+    cursor: zoom-in;
+    cursor: crosshair;
+}
+
+
+
+/****** TITLES *********/
+
+strong em u {
+    font-size: 150%;
+    text-shadow: 2px 1px 1px #333;
+}
+
+
+
+/************* GLIA-GRAPH ****************/
+
+/*>david: Fixed with DPI directive... this is deprecated, but if I remember right, it's hardcoded in e2h - rename to graphContainer or something, and maybe use for some other graph CSS tweak?*/
+/*zoom: 0.55;*/
+ /* TODO: Firefox does not support zoom, but transform does not resize the container which causes padding */
+ /*-moz-transform: scale(0.55);*/
+.DOWNSCALED {
+}
+
+
+html {
+
+/* GROOVY "DEAD MEADOW" COLOR */
+background: #43C6AC;  /* fallback for old browsers */
+
+/* GREENISH */
+background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* BLUEISH */
+background: linear-gradient(to right, #FAFFCF, #65E8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*RGB = red green blue*/
+
+/*
+background: #92bcd3;
+background: #80968d;
+background: white;
+*/
+
+}
+
+
+
+h1 {
+    color: black;
+    background: white  ;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+/**** THIS NEEDS TO BE HERE BECAUSE TOTALISM.ORG "OLD STYLE" LOADS PAGE DIFFERNETLY .......... AND MISSES ON IT? SOMEHOW ********/
+
+
+/* ONLY WORKS WHEN "_=?" STYLE LOADING ! */
+.main_container {
+}
+
+
+
+.etherpad_container {
+        display: inline-block;  
+
+/*
+        font-size: 120%;
+        word-wrap: break-word;
+
+        margin: 80px 30 30 30;
+        padding: 10px;
+        max-width: 70%;
+        background: black;
+*/
+
+        line-height: 150%;
+
+
+        /* nice actually, postuni stil */
+        background: white !important;
+
+        background: none !important;
+
+/* ONLY THIS ONE */ 
+    margin: 40px 80px 00px 80px !important;
+
+}
+
+
+u {
+        font-size: 155%;
+
+        color: white !important;
+        background: #333;
+
+        color: black !important;
+        background: white;
+}
+
+
+strong {
+        background: white;
+        color: black !important; 
+
+        background: #333;
+        color: white !important; 
+
+        color: black !important; 
+        background: #EEE;
+        opacity: 0.8;
+
+        margin: 2px;
+        padding: 1px;
+
+        margin: 2px;
+        padding: 1px;
+}
+
+em {
+        color: black !important;
+
+        display: inline;
+        font-style: normal;
+        font-style: italic;
+}
+
+a:link {
+    color: #333;
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 white;
+    font-weight: bold;
+}
+
+a:visited {
+    font-weight: bold;
+    color: #777;
+    border-bottom-color: black !important;
+    /*
+    ######## LOL this does not work for some security concerns
+    ######## http://stackoverflow.com/questions/10471929/underlining-visited-links
+    border-bottom: 0px solid white !important;
+    box-shadow: 0 0px 0 white !important;
+    text-decoration: none !important;
+    */
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration-style: dashed;
+    border-bottom-color: black !important;
+/*    opacity: 0.9;*/
+}
+
+
+
+/****************** THIS WENT TO CSS-STAGING **************/
+
+strong em u {
+    background: #333 !important;
+    color: white !important;
+
+    background: white !important;
+    color: black !important;
+
+    letter-spacing: 6px;
+    font-size: 180%;
+    opacity: 0.7;
+    padding: 4px;
+}
+
+em u {
+    line-height: 130%;
+    background: none !important;
+    font-style: none !important;
+    text-decoration: none !important;
+    font-size: 140%;
+}
+
+
+/** Lee's Modifications to match the hidden and inline styling on totalism */
+
+a:before {
+    content: "🔗";
+    margin-right: 6px;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+h2, h3 {
+    display: inline-block;
+    background-color: white;
+    border-bottom: 2px solid;
+}
+
+body {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 2%;
+    max-width: 70% !important;
+    background: linear-gradient(to right, white, #ccffee);
+      /* background-color: #ccffee; */
+}
+
+code {
+    background-color: lightgrey;
+}
+
+img { 
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
