@@ -1,14 +1,22 @@
 # Intro to P5JS
 
-- Your first p5 sketch
-- Review the [Transitioning from Processing tutorial](https://github.com/processing/p5.js/wiki/Processing-transition)
-- [Alpha Editor](http://alpha.editor.p5js.org)
-  - register and make an account
-- Running p5js sketches locally and setting up your editor
+Today:
+
+- review algorithmic walks
+- randomness
+- intro to p5.js (or review)
 
 ## Javascript!
 
+- [p5.js](https://p5js.org) is a Javascript Library
+- it is a reimplementation of Processing for the web
+- In addition to the Processing drawing commands it also has commands that take advantage of the medium of the web browser (accessing and modifying web pages, for example)
+- It is very similar to Processing (Java) but there are differences because it is based on Javascript - see [Transitioning from Processing tutorial](https://github.com/processing/p5.js/wiki/Processing-transition)
+
 ## Program flow
+
+- [Web Editor](http://editor.p5js.org)
+  - register and make an account
 
 ### A basic p5 `sketch`
 
@@ -118,6 +126,10 @@ Using the Console
 
 Code examples in p5js can be found [here](../basicExamples.md)
 
+## Next steps:
+
+- Review the [Transitioning from Processing tutorial](https://github.com/processing/p5.js/wiki/Processing-transition)
+- Running p5js sketches locally and setting up your editor
 
 ## Start your (dev) logs
 
