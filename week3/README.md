@@ -57,20 +57,89 @@ function draw() {
 }
 ```
 
-
 ## Writing a class
 
-- At the top of the class is a constructor function
-- The constructor is kind of like an object's *setup* in that it provides the initial values for any passed variables and it creates new variables that may be used in class
-- ```this``` is a special keyword in javascript.
-- Each time you use the class to create a new object instance, it will have its own variables and functions assigned to it
-- If I have a class *People* and a variable *name* it's important that my *Billy* object has the name *Billy* and if I also make a *Sally* object it has its name variable be *Sally* and not Billy. (Sorry for this metaphor)
-- We use ```this``` in front of the variables because each stamped out object will need to reference its own version of that variable
-- Note that functions inside of classes are called methods. You don't need to include the word ```function``` in front of them since they are understood as functions without it.
-- ```new``` is the instruction to create an object
-- it creates an object *instance*
+- A metaphor example: I have a class *People* that contains the instance variables *name* and *age*. My first object's name variable is "Billy", age variable's value is 23. My second object has the name variable "Sally" and the age variable's value is 25. They both have name variables. They both have age variables. But each has their own name and age. 
+- 
+### The Constructor
 
-## An Example Class
+This is at the top of a class. It's kind of like an object's *setup*. It runs once when you create an object, and assigns the instance variables to the object. 
+
+Because each object will have their own variables, we use ```this``` before the variable name when they will each have their own value.
+
+For example:
+
+```
+class Ball {
+  constructor(){
+    this.x = random(width); //pick random x location
+    this.y = random(height); //pick random y location
+  }
+
+//our class continues......
+```
+
+So far we have a constructor that will assign variables when we create an object. Now let's make special functions (which we call *methods*) that each object will have. You do not put the word *function* before your method's name. It's understood.
+
+```
+//continues after the constructor from above
+
+display(){
+  ellipse(this.x,this.y,20,20);
+}
+```
+
+So now we have created a display() function. Every object created from the Ball class will have a random x and a random y. To see the ball on the screen, we'll have to run ```.display();``` for each object.
+
+#### Mini example of a simple class with one object
+
+Here is an example of the code all-together.
+
+```
+let myBall;
+
+function setup(){
+  createCanvas(400,400);
+  myBall = new Ball(); 
+  
+  myBall.show();
+}
+
+class Ball {
+  constructor(){
+    this.x = random(width); //pick random x location
+    this.y = random(height); //pick random y location
+  }
+
+```
+
+## What if we want multiple balls?
+
+We can leave the class alone, but add more global variables (one for each ball).
+
+```
+let myBall;
+let yourBall;
+
+function setup(){
+  createCanvas(400,400);
+  myBall = new Ball(); 
+  yourBall = new Ball(); 
+  
+  myBall.show();
+  yourBall.show();
+```
+
+### An Example Class that takes input when it gets created
+
+#### Default arguments
+
+Maybe you don't want each of your objects to be located at a random x and y position when they are created. Perhaps you want to specify each object's exact position. Or its color. You can pass in values when you create an object. This is optional.
+
+* Default arguments are optional. 
+* You can include default values for the variables connected to each object
+* You can specify in the constructor like this: ```constructor(x = 100, y = 300){  }```
+
 
 [Example Code here](https://editor.p5js.org/2sman/sketches/SJ5DGeIOQ)
 
@@ -102,11 +171,44 @@ function draw(){
 }
 ```
 
-## Default arguments
+### Lots and lots of objects - using arrays
 
-* Default arguments are optional
-* You can include default values for the variables connected to each object
-* You can specify in the constructor like this: ```constructor(x = 100, y = 300)```
+If you want to make a ton of objects it's too tedious to come up with a variable name for each of them, and then to write out all the code to make new objects and then to declare their methods. Instead, we make an array, load it in the setup with a loop, then use the methods of each object in the draw (also in a loop).
+
+Example:
+
+```
+let myBubbles = []; //creates an empty array to hold all of my bubbles
+
+function setup(){
+  createCanvas(400,400);
+  
+  //this will loop through 10 times, create myBubbles[0] up to myBubbles[9].
+  for (let i = 0; i < 10; i++){
+    myBubbles[i] = new Bubble(); 
+  }
+}
+
+function draw(){
+  //let's loop through again and display each of myBubbles
+  for (let i = 0; i < 10; i++){
+    myBubbles[i].display();
+  }
+}
+
+class Bubble{
+
+  constructor(){
+    this.x = random(width);
+    this.y = random(height);
+  }
+  display(){
+    fill(0,0,190);  //blue
+    ellipse(this.x,this.y,20,20);
+  }
+}
+```
+
 
 ## Resources
 
@@ -115,12 +217,24 @@ function draw(){
 * Classes [example](https://googlechrome.github.io/samples/classes-es6/) by Google Chrome team.
   * [More](https://github.com/GoogleChrome/samples) Google Chrome ES6 examples
 
-# Homework
+# Homework - Practice creating a creature class
 
-* Write an object using a constructor function that draws a creature of your imagining.
-* Read through I.1-I.3 in the introduction of [Nature of Code](http://natureofcode.com/), but remembering that we will be writing our code in javascript and not Processing. This means that when you read the term 'class', think of way of writing objects with the constructor function. Contain the code that draws your creature within a function called display(). Work through exercise I.1, creating a random walker class in p5js by adding in a step function to your object code. Also do exercise I.2 and I.3. Note that the functions such as random, noise are the same in both processing and p5js. Create your own version of the random walker.
+You will make a class for a creature like a snail or bear or doodlebug. Use primitive shapes (rects, ellipses, etc) OR use images/photos that you preload. (All images should loaded in advance in preload() before you're setup).
+
+You can start by modifying our class code examples of creating a Bubble or Ball class. Instead, yours will be called Snail class or Doodlebug or whatever. Then you can make a myBear or myDoodlebug object. Your class should have a constructor and a display method, at minimum.
+
+Your display() method for the class should have commands like fill, ellipse, rect , etc that you will use to create your little creature. Alternatively, use preload() before setup and then draw the image to the screen in your display method. In either case, pay attention to aesthetics! It should look good.
+
+Upload link to your saved p5.js project on Moodle, or upload.
+
+Note: PLEASE UPLOAD BY MIDNIGHT the night BEFORE WE MEET FOR CLASS. THIS WILL GIVE ME TIME TO TAKE YOUR CLASSES AND OBJECTS, COMBINE THEM INTO ONE SKETCH AND MAKE AN ECOSYSTEM FOR ALL OUR CREATURES TO INHABIT TOGETHER for us to play with next week.
+
+Part 2 will be add to a random walker method to your class. See below.
+
+# Reading
+* Read through I.1-I.3 in the introduction of [Nature of Code](http://natureofcode.com/book), but remembering that we will be writing our code in javascript and not Processing. This means that when you read the term 'class', think of way of writing objects with the constructor function. Follow the random walker section and see if you can work through exercise I.1, creating a random walker class in p5js by adding in a step function to your object code. Also do exercise I.2 and I.3. Note that the functions such as random, noise are the same in both processing and p5js. Create your own version of the random walker, and add this code to your p5.js code for your assignment.
   * [The Nature of Code, Introduction](https://natureofcode.com/book/introduction/), online
   * You may want to watch The Nature of Code Introduction [videos](https://www.youtube.com/watch?v=6vX8wT1G798&index=1&list=PLRqwX-V7Uu6aFlwukCmDf0-1-uSR7mklK), the videos are on Processing, but are still helpful
-* The book's example code has been [ported to p5js](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js) and can be [downloaded](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/archive/master.zip). You will have to run the code locally.
+* The book's example code has been [ported to p5js](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js) and can be [downloaded](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/archive/master.zip). 
 
 
