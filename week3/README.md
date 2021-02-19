@@ -217,9 +217,15 @@ class Bubble{
 * Classes [example](https://googlechrome.github.io/samples/classes-es6/) by Google Chrome team.
   * [More](https://github.com/GoogleChrome/samples) Google Chrome ES6 examples
 
-# Homework - Practice creating a creature class
+# Homework - Created a Creature Class and an object
 
-You will make a class for a creature like a snail or bear or doodlebug. Use primitive shapes (rects, ellipses, etc) OR use images/photos that you preload. (All images should loaded in advance in preload() before you're setup).
+**Part 1 is just to display your creature on the screen. Do this before doing the reading.**
+
+**Part 2 is to add a walking method to your class so your creature can move around. Do this after doing the reading and add to your creature's class.**
+
+# Part 1
+
+You will make a class for a creature like a snail or bear or doodlebug. Use primitive shapes (rects, ellipses, etc) OR use images/photos that you preload. (All images should loaded in advance in preload() before your setup).
 
 You can start by modifying our class code examples of creating a Bubble or Ball class. Instead, yours will be called Snail class or Doodlebug or whatever. Then you can make a myBear or myDoodlebug object. Your class should have a constructor and a display method, at minimum.
 
@@ -227,14 +233,14 @@ Your display() method for the class should have commands like fill, ellipse, rec
 
 Upload link to your saved p5.js project on Moodle, or upload.
 
-Note: PLEASE UPLOAD BY MIDNIGHT the night BEFORE WE MEET FOR CLASS. THIS WILL GIVE ME TIME TO TAKE YOUR CLASSES AND OBJECTS, COMBINE THEM INTO ONE SKETCH AND MAKE AN ECOSYSTEM FOR ALL OUR CREATURES TO INHABIT TOGETHER for us to play with next week.
+**Note: PLEASE UPLOAD BY MIDNIGHT the night BEFORE WE MEET FOR CLASS. THIS WILL GIVE ME TIME TO TAKE YOUR CLASSES AND OBJECTS, COMBINE THEM INTO ONE SKETCH AND MAKE AN ECOSYSTEM FOR ALL OUR CREATURES TO INHABIT TOGETHER for us to play with next week.**
 
-Part 2 will be add to a random walker method to your class. See below.
+# Part 2: Reading (and then add to your code)
 
-# Reading
-* Read through I.1-I.3 in the introduction of [Nature of Code](http://natureofcode.com/book), but remembering that we will be writing our code in javascript and not Processing. This means that when you read the term 'class', think of way of writing objects with the constructor function. Follow the random walker section and see if you can work through exercise I.1, creating a random walker class in p5js by adding in a step function to your object code. Also do exercise I.2 and I.3. Note that the functions such as random, noise are the same in both processing and p5js. Create your own version of the random walker, and add this code to your p5.js code for your assignment.
-  * [The Nature of Code, Introduction](https://natureofcode.com/book/introduction/), online
-  * You may want to watch The Nature of Code Introduction [videos](https://www.youtube.com/watch?v=6vX8wT1G798&index=1&list=PLRqwX-V7Uu6aFlwukCmDf0-1-uSR7mklK), the videos are on Processing, but are still helpful
-* The book's example code has been [ported to p5js](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js) and can be [downloaded](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/archive/master.zip). 
+After creating your class in section 1 and an object, now read from [The Nature of Code](http://natureofcode.com/book) (free, online).
 
+Read through Introduction section 1 - 3 in the book Nature of Code online, but remembering that we will be writing our code in p5.js and not Processing. Instead of int or float, use let. When you read the term 'class', think of the p5.js way of writing objects with the constructor function. Follow the random walker section and see if you can work through exercise I.1, creating a random walker class in p5js by adding in a step function to your object code. Then try exercise I.2 and I.3. Note that the functions such as random, noise are the same in both processing and p5js. Create your own version of the random walker, and add this code to your p5.js code for your assignment.
 
+- [The Nature of Code, Introduction](https://natureofcode.com/book/introduction/)
+- Optional: - [the videos](https://www.youtube.com/watch?list=PLRqwX-V7Uu6aFlwukCmDf0-1-uSR7mklK&v=6vX8wT1G798&feature=emb_logo) are on Processing, but are still helpful
+- The book's example code has been [ported to p5js](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
