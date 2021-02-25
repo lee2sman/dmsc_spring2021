@@ -16,4 +16,4 @@ Class Sessions
 
 [Week 3](week3/) - Automatons
 
-[Week 4](week4/) - Noise 
+[Week 4](week4/) - Noise and Randomness

@@ -1,11 +1,10 @@
-# Week 4
+# Week 4 - Noise and Randomness
 
 ## Today
 
 - random walkers
 - warmup: multiple classes and objects
 - other forms of randomness
-
 
 ### Choosing random numbers with non-uniform distribution
 
