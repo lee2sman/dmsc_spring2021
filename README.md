@@ -15,3 +15,5 @@ Class Sessions
 [Week 2](week2/) - Intro to p5.js
 
 [Week 3](week3/) - Automatons
+
+[Week 4](week4/) - Noise
