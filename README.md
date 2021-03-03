@@ -17,3 +17,5 @@ Class Sessions
 [Week 3](week3/) - Automatons
 
 [Week 4](week4/) - Noise and Randomness
+
+[Week 5](week5/) - Artificial Life and Vectors
