@@ -93,8 +93,8 @@ If you need to see the p5js example sketches they are [here](https://github.com/
 
 *Try exercises 1.1 and 1.2 [from the book](https://natureofcode.com/book/chapter-1-vectors/) in p5js (you can do 1.3 if you are excited and familiar with 3D), 1.4 and 1.5.*
 
-## Devlog
-- Find 2 or 3 examples of programs that involve artificial intelligence and/or artificial life and research how these elements are handled in the programs. Examples can be things like life simulations, flocking algorithms, robot simulations, etc. Since the assignment involves researching the programmer's methods, ideal projects would be one's where you are able to view the actual code. So, either open source software projects or web-based javascript projects would be ideal.
+## Post examples of A-Life and Artificial Intelligence to Discord
+- Find 2 or 3 examples of programs that involve artificial intelligence and/or artificial life and research how these elements are handled in the programs. Examples can be things like life simulations, flocking algorithms, robot simulations, etc. Ideal projects would be ones where you are able to view the actual code if possible.
 
 ## Ecosystem project
 
