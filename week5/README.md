@@ -260,15 +260,15 @@ Science fiction is full of [intelligent artificial life forms](https://en.wikipe
 
 The interdisciplinary field of cybernetics that emerged after WW2 also explores these questions. Of note, are the cybernetic experiments of Dr. Grey Walter an English neurologist and roboticist. In 1949 Walter built [reactive autonomous robots](http://www.theoldrobots.com/ElmerElsie.html) without the aid of computer processors or micro-controllers, these could wander about and avoid obstacles. Most famous were his turtles Elmer and Elsie which he thought of as electronic 'brains'.  
 
-<a href="https://www.youtube.com/embed/lLULRlmXkKo"><img src="assets/turtles.png"
-alt="TURTLES"></a>
+![turtles](../images/turtles.png)  
+*Turtles, [video](https://www.youtube.com/embed/lLULRlmXkKo)
 
 Walter's turtles were a proposition that intelligence is not a higher level property and rather is, situated, emergent and pre-cognitive. They are still widely cited in cybernetic literature today.   
 
 A more recent example of an artist exploring of these theme's today, is the early work of [Heather Dewey Hagborg.](http://deweyhagborg.com/) In this video she describes some key concepts of her work Bugs, and artificial life such as emergence, bottom up models for intelligence and the irreducibility of complex systems.   
 
-<a href="https://www.youtube.com/watch?v=rmKMiAze-3Q"><img src="assets/bugs.png"
-alt="Heather Dewey-Hagborg Bugs"/></a>
+![Bugs](../images/bugs.png)  
+*Bugs, by Heather Dewey-Hagborg - [video](https://www.youtube.com/watch?v=rmKMiAze-3Q)*
 
 ### Artificial Life in Media Art
 
@@ -278,8 +278,7 @@ Some key examples of artificial life artworks are:
 
 * The quite terrifying [Senstor by Edward Ihnatowicz](http://www.senster.com/ihnatowicz/), 1974.  
 
-<a href="https://www.youtube.com/watch?v=hoZb5MTKzQc"><img src="assets/senstor.png"
-alt="Senstor">  
+![Senstor](../images/senstor.png)
 
 * Many examples of [Laurent Mignonneau & Christa Sommerer's](http://www.interface.ufg.ac.at/christa-laurent/) artworks. Who have also done fantastic work developing tangible and unusual interfaces using [water](https://www.youtube.com/watch?v=cZ3v1jcCXmk), [plants](http://www.interface.ufg.ac.at/christa-laurent/WORKS/FRAMES/FrameSet.html), [typewriters.](http://www.interface.ufg.ac.at/christa-laurent/WORKS/FRAMES/FrameSet.html)
 
@@ -289,7 +288,7 @@ alt="Senstor">
 ![Delicate](../images/delicate.jpg)  
 
 * And the software based creatures curated by [Golan Levin](http://www.flong.com/) in his [Single Cell](http://www.singlecell.org/singlecell.html) and [Double Cell](http://www.singlecell.org/) collections of Processing works.  
-![Obzok](assets/golan.jpg)   
+![Obzok](../images/golan.jpg)   
 
 We could also consider the non-art realm, such as General Dynamics' [Big Dog](https://www.youtube.com/watch?v=cNZPRsrwumQ).
 
