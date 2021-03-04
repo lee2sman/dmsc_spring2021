@@ -1,5 +1,11 @@
 # Week 5
 
+Today:
+
+
+Next week:
+- guest artist: [Naoto Hieda](https://naotohieda.com/) (they/them) on livecoding with Hydra and TidalCycles
+
 # Fun with Vectors
 
 * Euclidean vector, possesses magnitude and direction ( 2 values )
@@ -323,13 +329,18 @@ Theo Trian's work is created in the Unity game engine. Characters or elements ha
 
 ## Homework
 
-* Check out how to normalize a vector - [example](https://editor.p5js.org/2sman/sketches/SksO4QOK7)
-* Watch Vectors tutorial [video](https://www.youtube.com/watch?v=7eBLAgT0yUs&index=6&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc) on acceleration toward the mouse and/or read section 1.10 in Nature of Code. Review any earlier videos on Vectors as needed.
-* [Read Chapter 2](https://natureofcode.com/book/chapter-2-forces/) of Nature of Code through section 2.5 on Creating Forces. P5JS code for chapter is [here](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp02_forces).
-* Create a new basic creature with vectors. Try to include a force as well if you can. Don't spend as much time on design/aesthetics as you do thinking through modeling its behavior and then implementing this in code. Submit this code online and be prepared to show it in class.
-* Read the Introduction of Mitchel Whitelaw's metacreation
-* Write a devlog and show examples of *artificial life* or a project exploring *emergence* that you have found that relates to the ideas in this text. This could either be from an artwork, a computer program or a real life process. Investigate it further online. How does it demonstrate emergence/bottom-up design?
+### Read / Watch
+- Watch Vectors tutorial [video](https://www.youtube.com/watch?v=7eBLAgT0yUs&index=6&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc) on acceleration toward the mouse and/or read section 1.10 in [Nature of Code](https://natureofcode.com/book/chapter-1-vectors/). Review any earlier videos on Vectors as needed.
+- Check out how to normalize a vector - [example](https://editor.p5js.org/2sman/sketches/SksO4QOK7)
+- [Read Chapter 2](https://natureofcode.com/book/chapter-2-forces/) of Nature of Code through section 2.5 on Creating Forces. P5JS code for chapter is [here](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp02_forces).
+- Review the website for artist [Naoto Hieda](https://naotohieda.com/) (they/them) who will be visiting us in class next week! We will start a new module with their visit. 
 
+### Create A-life
+- Create a new basic creature with vectors. Try to include a force as well if you can. Don't spend as much time on design/aesthetics as you do thinking through modeling its behavior and then implementing this in code. Submit this code online and be prepared to show it in class.
+- Read the Introduction of Mitchel Whitelaw's metacreation
+- **Write a devlog**. Find your own examples or check Discord for examples of *artificial life* (aka a-life) or a project exploring *emergence* that you have found that relates to the ideas in this text. This could either be from an artwork, a computer program or a real life process. Investigate it further online. How does it demonstrate emergence/bottom-up design? (Also, be sure to explain what emergence means to you).
+- Using the class you made for a basic creature, make an array of creature objects. How do they demonstrate emergence?
+- **Include a link to your sketch in your devlog and screenshot (or several)**
 
 *Artificial Life section originally adapted from [Tega Brain](https://github.com/tegacodes/Drawing-Seeing-Moving-with-Code/blob/gh-pages/docs/lectures/L-05.md)*
 
