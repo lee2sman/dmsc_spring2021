@@ -1,10 +1,10 @@
 # Week 6
 
-* Vectors review
-* Discuss Metacreation
-  * emergence
-  * a pivot between living things and technological systems
-* coming up: Livecoding Hydra with Naoto Hieda
+* Forces!
+* Livecoding workshop with artist Naoto Hieda
+* 
+
+### A-life
 
 > New media art self-consciously reworks technology into culture, and rereads technology as culture. What's more, it does so in a concrete, applied way; it manipulates the technology itself, with a nonindustrial latitude that admits misapplication and adaptation, rewiring and hacking, pseudofunctionality and accident. *p.5, Metacreation*
 
@@ -211,3 +211,31 @@ function draw() {
 Notice the smaller movers are faster. Acceleration is force divided by mass, so larger masses have smaller accelerations.
 
 [array of movers with forces](https://editor.p5js.org/2sman/sketches/g9ewFlXYR) - code example
+
+# Livecoding introduction
+
+# Workshop with Naoto Hieda
+
+[Naoto Hieda](https://naotohieda.com/)
+
+> *Naoto Hieda is an artist from Japan based in Germany, challenging the current paradigm of productive coding to speculate its new form, namely post-coding, through their neurodiverse perspective and live-coding experiences. Currently, Hieda is a fellow of Yoshino Gypsum Art Foundation. Together with Olivia Jack, the duo founded and are organizing Hydra live coding community meetups.*
+
+## Hydra
+
+> Built using WebRTC (peer-to-peer web streaming) and WebGL, hydra allows each connected browser/device/person to output a video signal or stream, and receive and modify streams from other browsers/devices/people. The API is inspired by analog modular synthesis, in which multiple visual sources (oscillators, cameras, application windows, other connected windows) can be transformed, modulated, and composited via combining sequences of functions. 
+
+### Resources
+
+- [Getting Started](https://github.com/ojack/hydra#Getting-Started)
+- [Hydra examples and info](https://github.com/ojack/hydra/blob/main/examples/README.md)
+- [Hydra book](https://hydra-book.naotohieda.com/#/) by Naoto Hieda
+- Collaboratively livecode in Hydra together in [PixelJam](http://pixeljam.glitch.me/)
+
+# Homework
+
+* Read about Attraction Forces in Chapter 2 of Nature of Code
+* Watch Dan Shiffman's [tutorials](https://www.youtube.com/watch?v=II1A3bBo6gM&list=PLRqwX-V7Uu6ZRrqLcQ5BkBKmBLiGD8n4O) on forces if you'd like a review or alternate instruction model
+* At this point, you should have the beginning of an ecosystem project that you can work on for several weeks, refining. Add forces into your creature project and submit a project with 2 moving creatures that experiences forces.
+* Read Chapter 3, and test out some of the examples, add an attraction force and some sort of oscillation to your ecosystem project. [Chapter 3 p5js code](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp03_oscillation)
+
+We may have Hydra homework as well. Stay tuned.
