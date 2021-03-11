@@ -208,7 +208,56 @@ function draw() {
 }
 ```
 
+
 Notice the smaller movers are faster. Acceleration is force divided by mass, so larger masses have smaller accelerations.
+
+
+
+An example with mousePressed to create a wind force on 2 movers.
+
+```
+// The Nature of Code
+let moverA;
+let moverB;
+
+function setup() {
+  createCanvas(640, 360);
+  // A large Mover on the left side of the window
+  moverA = new Mover(200, 30, 10);
+  // A smaller Mover on the right side of the window
+  moverB = new Mover(440, 30, 2);
+  createP('Click mouse to apply wind force.');
+}
+
+function draw() {
+  background(51);
+
+  let gravity = createVector(0, 0.1);
+
+  let gravityA = p5.Vector.mult(gravity, moverA.mass);
+  moverA.applyForce(gravityA);
+
+  let gravityB = p5.Vector.mult(gravity, moverB.mass);
+  moverB.applyForce(gravityB);
+
+  if (mouseIsPressed) {
+    let wind = createVector(0.1, 0);
+    moverA.applyForce(wind);
+    moverB.applyForce(wind);
+  }
+
+  moverA.update();
+  moverA.display();
+  moverA.checkEdges();
+
+  moverB.update();
+  moverB.display();
+  moverB.checkEdges();
+}
+```
+
+[code example](https://editor.p5js.org/2sman/sketches/hEKrAw8rQ)
+
 
 [array of movers with forces](https://editor.p5js.org/2sman/sketches/g9ewFlXYR) - code example
 
