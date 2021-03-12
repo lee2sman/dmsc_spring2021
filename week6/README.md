@@ -2,7 +2,6 @@
 
 * Forces!
 * Livecoding workshop with artist Naoto Hieda
-* 
 
 ### A-life
 
@@ -269,22 +268,44 @@ function draw() {
 
 > *Naoto Hieda is an artist from Japan based in Germany, challenging the current paradigm of productive coding to speculate its new form, namely post-coding, through their neurodiverse perspective and live-coding experiences. Currently, Hieda is a fellow of Yoshino Gypsum Art Foundation. Together with Olivia Jack, the duo founded and are organizing Hydra live coding community meetups.*
 
-## Hydra
 
-> Built using WebRTC (peer-to-peer web streaming) and WebGL, hydra allows each connected browser/device/person to output a video signal or stream, and receive and modify streams from other browsers/devices/people. The API is inspired by analog modular synthesis, in which multiple visual sources (oscillators, cameras, application windows, other connected windows) can be transformed, modulated, and composited via combining sequences of functions. 
+### Recap
 
-### Resources
+Naoto demonstrated TidalCycles over the web. We used the livecoding hosting environment Estuary for collaborative livecoding in the browser.
 
-- [Getting Started](https://github.com/ojack/hydra#Getting-Started)
-- [Hydra examples and info](https://github.com/ojack/hydra/blob/main/examples/README.md)
-- [Hydra book](https://hydra-book.naotohieda.com/#/) by Naoto Hieda
-- Collaboratively livecode in Hydra together in [PixelJam](http://pixeljam.glitch.me/)
+[Estuary](https://estuary.mcmaster.ca)
+
+In Estuary, we first selected [Solo Mode](https://estuary.mcmaster.ca/) to practice.
+
+You can alternatively click on "Tutorial" to learn/practice.
+
+**We press Shift-Enter to process/run our code.** If we make a mistake, we see *syntax error* and the previous version of our code is still heard.
+
+We comment out (turn off) our code with ```--``` two hyphens.
+
+We learned with **MiniTidal**.
+
+## Resources
+
+[TidalCycles Functions](https://tidalcycles.org/index.php/Functions)
+
+[TidalCycles Mini notation syntax](https://tidalcycles.org/Mini_notation_syntax)
+
+Recorded Workshop: Babycastles Academy workshop [Intro to Livecoding with TidalCycles](https://www.youtube.com/watch?v=YuEBVxi_6CU) on YouTube, taught by Dan Gorelick, who will be performing [next Friday the 19th online](https://livecode.nyc/event/20210319-COMMONS.html) along with many more performers. In this recording, Dan shows how to install and run the full TidalCycles on your computer instead of the MiniTidal we used in class.
+
 
 # Homework
 
-* Read about Attraction Forces in Chapter 2 of Nature of Code
-* Watch Dan Shiffman's [tutorials](https://www.youtube.com/watch?v=II1A3bBo6gM&list=PLRqwX-V7Uu6ZRrqLcQ5BkBKmBLiGD8n4O) on forces if you'd like a review or alternate instruction model
-* At this point, you should have the beginning of an ecosystem project that you can work on for several weeks, refining. Add forces into your creature project and submit a project with 2 moving creatures that experiences forces.
-* Read Chapter 3, and test out some of the examples, add an attraction force and some sort of oscillation to your ecosystem project. [Chapter 3 p5js code](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp03_oscillation)
+## Ecosystem project
 
-We may have Hydra homework as well. Stay tuned.
+* Read section 2.8 on Air/Fluid Resistance
+* Can you add mud? water? goo? that will slow down and affect your creature?
+* Read section 2.9 on Attraction. This will let us make organisms that move around and follow things, run away from them (or eat them!). Can you add cheese that attracts your mouse? or pheromones that attract a critter? or honey that attracts a bear?
+* See examples 2.5 and 2.6 [here](https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp02_forces) for starter p5.js code adapted from The Nature of Code
+* optional: Watch Dan Shiffman's [tutorials](https://www.youtube.com/watch?v=II1A3bBo6gM&list=PLRqwX-V7Uu6ZRrqLcQ5BkBKmBLiGD8n4O) on forces if you'd like a review or alternate instruction model
+* Your project should consist of at least one Class. Your environment should have forces. This could be gravity, wind. Add an attraction force. You are welcome to replace your primitive ellipse shape with an image at this point, or wait til the next step. Ideally, you have a metaphor in mind for what you are creating, not just "these circles want to eat these other circles" but a specific system you are trying to build.
+
+## Livecoding Practice
+
+- Pick at least one other student and meet up together to jam together with TidalCycles. Take a screenshot and post. Save any useful code snippets! Add a devlog with some notes (any combination of screenshots, code snippets, and notes on what it's like to livecode music this way).
+- *Feeling stuck? Not sure how to get started? Message me to meet up to review*
