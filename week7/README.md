@@ -110,7 +110,9 @@ class Creature {
 
 We have made lots of use of ```array.length```, for example when looping to create new objects in an array, or in our draw to loop through all elements of an erray and run their methods. There are other useful array methods as well.
 
-```array.push()```
+```
+array.push();
+```
 
 ```
 let array = [22, 10, 8, 4, 9];
