@@ -123,7 +123,9 @@ console.log("last element in the array: " + array[array.length-1]);
 
 This adds a new element to the end of the array.
 
-```indexOf(element)```
+```
+indexOf(element)
+```
 
 example
 
@@ -139,7 +141,9 @@ var index = array.indexOf(2); // 0
 index = array.indexOf(7); // -1   
 ```
 
-```splice()```
+```
+splice()
+```
 
 Unlike in Processing, arrays in Javascript (and p5.js) may change their length. In other words, you can add and remove elements from an array. 
 
