@@ -242,7 +242,13 @@ classes and objects with ES6 style in p5.js - [video](https://www.youtube.com/wa
 
 # Homework
 
-- Review Chapter 4 in Nature of Code on Particle Systems.
-- P5js examples are in [here.](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp04_systems)
-- Daniel Shiffman [tutorials](https://www.youtube.com/watch?v=vdgiqMkFygc&list=PLRqwX-V7Uu6Z9hI4mSgx2FlE5w8zvjmEy)
-- Read [How Do Simple Programs Behave](http://www.wolframscience.com/nks/p23--how-do-simple-programs-behave/) by Steven Wolfram
+Please attend:
+
+Livecode.nyc concert - Friday March 19, 7pm - midnight 
+
+Auriea Harvey lecture - Wednesday March 24, 5pm
+
+Bonus:
+
+Wordhack (algorithmic performance, poetry) - TONIGHT
+
