@@ -19,3 +19,10 @@ Class Sessions
 [Week 4](week4/) - Noise and Randomness
 
 [Week 5](week5/) - Artificial Life and Vectors
+
+[Week 6](week6/) - Adding forces, livecoding workshop
+
+[Week 7](week7/) - Swarming
+
+[Week 8](week8/) - Simulations
+
