@@ -175,6 +175,14 @@ src(s0).hue().out()
 - [Hydra book](https://hydra-book.naotohieda.com/#/) by Naoto Hieda
 - Collaboratively livecode in Hydra together in [PixelJam](http://pixeljam.glitch.me/)
 
+# Field Trip
+
+Generative Unfoldings [exhibit](https://generative-unfoldings.mit.edu/)
+
+[Trailer](https://www.youtube.com/watch?v=2Taf_Mt774Y)
+
+art opening at 5pm - [here](https://unfoldingai.mit.edu/#generative-unfoldings)
+
 # Homework
 
 ### Read
