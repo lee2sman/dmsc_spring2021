@@ -44,6 +44,8 @@ Note that you could still use i instead of the word horse, but the full word may
 
 ### Coding Challenge: Squirrel Eat Squirrel
 
+Squirrel Eat Squirrel is a game by programmer Al Sweigart.
+
 > Squirrel Eat Squirrel is loosely based on the game *Katamari Damacy*. The player controls a small squirrel that must hop around the screen eating smaller squirrels and avoiding larger squirrels. Each time the player’s squirrel eats a squirrel that is smaller than it, it grows larger. If the player’s squirrel gets hit by a larger squirrel larger than it, it loses a life point. The player wins when the squirrel becomes a monstrously large squirrel called the Omega Squirrel. The player loses if their squirrel gets hit three times.
 
 [video demo](https://www.youtube.com/watch?v=xB1sLRfcWj4)
