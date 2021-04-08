@@ -27,3 +27,5 @@ Class Sessions
 [Week 8](week8/) - Simulations
 
 [Week 9](week9/) - Livecoding visuals with Hydra
+
+[Week 10](week10/) - Squirrel Eat Squirrel (creating a mini ecosystem game)
