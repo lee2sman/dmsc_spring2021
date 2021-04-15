@@ -29,3 +29,5 @@ Class Sessions
 [Week 9](week9/) - Livecoding visuals with Hydra
 
 [Week 10](week10/) - Squirrel Eat Squirrel (creating a mini ecosystem game)
+
+[Week 11](week11/) - 3d space and intro to Procgen 
