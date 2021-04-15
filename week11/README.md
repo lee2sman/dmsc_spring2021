@@ -166,6 +166,12 @@ Read Chapter 1 of The Lifebox, the Seashell and The Soul - Computation Everywher
 - take notes! We are going to discuss this!
 
 
+## Propose
 
+Your final project is a project that makes use of procedural generation. It can be a procedurally-generated game, story, art toy or other digital media.
 
+It is permitted to include 'hand-crafted' content as well as procedurally-generated content.
 
+The final project should be a compelling work that is complete on its own and produces different meaningful results each time it is run.
+
+Write a proposal for your final project. Includes screenshots of other media that has influenced your thinking, and any thoughts, techniques for building, or questions that you have at this time.
