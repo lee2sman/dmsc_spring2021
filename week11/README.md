@@ -158,12 +158,10 @@ pointLight(); //like a light bulb
 
 ## Homework
 
-Watch Kate Compton [Creating Generative Art with Javascript](https://www.youtube.com/watch?v=tJ49bTJ6fbs). 
-
-Read Algorithms and Approaches by Brian Bucklew, and read Characters and Personalities by Emily Short, both in Procedural Generation in Game Design - these are short! just a few minutes read
-
-Read Chapter 1 of The Lifebox, the Seashell and The Soul - Computation Everywhere - [link](http://www.rudyrucker.com/lifebox/html/#calibre_link-178) by Rudy Rucker - a longer read
-- take notes! We are going to discuss this!
+1. Watch Kate Compton's talk [Creating Generative Art with Javascript](https://www.youtube.com/watch?v=tJ49bTJ6fbs)
+2. Read Chapter 1 in Procedural Generation in Game Design 
+3. Read Chapter 1 of The Lifebox, the Seashell and The Soul - Computation Everywhere - [link](http://www.rudyrucker.com/lifebox/html/#calibre_link-178) by Rudy Rucker - a longer read
+ - take notes! We are going to discuss this!
 
 
 ## Propose
