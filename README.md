@@ -31,3 +31,5 @@ Class Sessions
 [Week 10](week10/) - Squirrel Eat Squirrel (creating a mini ecosystem game)
 
 [Week 11](week11/) - 3d space and intro to Procgen 
+
+[Week 12](week12/) - generative and procedural interactive environments and games

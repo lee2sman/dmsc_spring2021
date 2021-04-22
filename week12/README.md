@@ -1,3 +1,5 @@
+# Interactive Generative and Procedural Environments and Games
+
 # Today's goal
 
 - work on procedural generation
@@ -47,7 +49,9 @@
 ## Algorave
 - May 6!
 
-## Final zine
+## Final project and final zine
+
+Details on final project in [week 11 notes](https://leetusman.com/dmsc_spring2021/week11/)
 
 - You will have a 2 page spread (2 X 8 1/2 by 11) spread in a digitial PDF 
 - this can be screenshots, text or a combo
