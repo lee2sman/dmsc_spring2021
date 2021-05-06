@@ -20,7 +20,7 @@ Class Sessions
 
 [Week 5](week5/) - Artificial Life and Vectors
 
-[Week 6](week6/) - Adding forces, livecoding workshop
+[Week 6](week6/) - Adding forces, livecoding workshop with Naoto Hieda
 
 [Week 7](week7/) - Swarming
 
@@ -33,3 +33,7 @@ Class Sessions
 [Week 11](week11/) - 3d space and intro to Procgen 
 
 [Week 12](week12/) - generative and procedural interactive environments and games
+
+[Week 13](#) - Studio Time
+
+[Week 14](week14/) - Guest speaker Bhavik Singh, Studio Time + Algorave
