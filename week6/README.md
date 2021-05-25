@@ -37,7 +37,8 @@ adapted from [Tega Brain](https://github.com/tegacodes/Drawing-Seeing-Moving-wit
 
 Conway's Game of Life - [Javascript implementation]( http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/)
 
- ### Genetic Algorithms
+### Genetic Algorithms
+
 [Karl Sims - Evolved Virtual Creatures](https://www.youtube.com/watch?v=JBgG_VSP7f8)
 
 [Jer Thorp - Smart Rockets](http://www.blprnt.com/smartrockets/)
