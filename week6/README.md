@@ -260,7 +260,7 @@ function draw() {
 
 [array of movers with forces](https://editor.p5js.org/2sman/sketches/g9ewFlXYR) - code example
 
-# Livecoding Introduction Workshop with Naoto Hieda
+## Livecoding Introduction Workshop with Naoto Hieda
 
 ![Naoto Hieda](../images/naoto-hieda.jpg)
 
