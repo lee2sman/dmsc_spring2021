@@ -260,16 +260,19 @@ function draw() {
 
 [array of movers with forces](https://editor.p5js.org/2sman/sketches/g9ewFlXYR) - code example
 
-# Livecoding introduction
+# Livecoding Introduction Workshop with Naoto Hieda
 
-# Workshop with Naoto Hieda
+![Naoto Hieda](../images/naoto-hieda.jpg)
 
-[Naoto Hieda](https://naotohieda.com/)
+[Naoto's website](https://naotohieda.com/)
 
 > *Naoto Hieda is an artist from Japan based in Germany, challenging the current paradigm of productive coding to speculate its new form, namely post-coding, through their neurodiverse perspective and live-coding experiences. Currently, Hieda is a fellow of Yoshino Gypsum Art Foundation. Together with Olivia Jack, the duo founded and are organizing Hydra live coding community meetups.*
 
 
-### Recap
+### TidalCycles
+
+> TidalCycles (also known as "Tidal") is a live coding environment designed for musical improvisation and composition. In particular, it is a domain-specific language embedded in Haskell, focused on the generation and manipulation of audible or visual patterns. It was originally designed for heavily percussive, polyrhythmic grid-based music, but now uses a flexible, functional reactive representation for patterns, using rational time. Tidal may therefore be applied to a wide range of musical styles, although its cyclic approach to time[5] means that it affords use in repetitive styles such as Algorave. --[source](https://en.wikipedia.org/wiki/TidalCycles)
+### Notes for our livecoding session
 
 Naoto demonstrated TidalCycles over the web. We used the livecoding hosting environment Estuary for collaborative livecoding in the browser.
 
