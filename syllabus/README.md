@@ -3,8 +3,8 @@
 Instructor: Lee Tusman  
 Pronouns: he/him  
 Contact: Lee.Tusman@purchase.edu  
-Course: NME2470 Thr 2:30pm - 6:10pm
-Zoom: [link via Moodle](https://moodle.purchase.edu/moodle2/mod/url/view.php?id=736164)
+Course: NME2470 Thr 2:30pm - 6:10pm  
+Zoom: [link via Moodle](https://moodle.purchase.edu/moodle2/mod/url/view.php?id=736164)  
 Office Hours: Tuesdays 11am - 1pm, arranged via Discord or email  
 
 ### Course Description  
@@ -13,7 +13,8 @@ An intermediate lecture/studio course that explores techniques for creating dyna
 
 ### Learning Objectives
 
-Students will:
+Students will:  
+
 - Gain skills and experience using open source creative coding environments as a medium for art
 - Develop poetic and critical experimental works in software
 - Critically engage with historic and contemporary computational art practices
