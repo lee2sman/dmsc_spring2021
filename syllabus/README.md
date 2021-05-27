@@ -131,7 +131,11 @@ If needed, this syllabus and the course outline may be revised to better suit th
 - simulating systems and games
 - if time and interest allows: esolangs, computational poetry and grammars
 
-### Guest speaker
+### Guest workshop
+
+[Naoto Hieda](https://naotohieda.com/)
+
+### Guest Artist
 
 [Bhavik Singh](https://bhaviksingh.com/)
 
@@ -139,7 +143,7 @@ If needed, this syllabus and the course outline may be revised to better suit th
 
 50% weekly class assignments. This will be based on your weekly logs about your projects. (weeks 1-10)  
 20% Final Assignment (weeks 11-14)  
-10% Presentations
+10% Presentations  
 20% Participation and attendance, and preparedness  
 
 ### Required Texts
